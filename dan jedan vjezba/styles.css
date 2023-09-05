@@ -1,0 +1,153 @@
+body {
+    background-image: url(https://storage.najstudent.com/blogs/544/3ff061cf8516e647109e6553d10a5bd5bd977061d807801e97eb3daa2c720dcd.jpg);
+    background-size: cover;
+}
+
+
+
+
+/* Resetovanje podrazumevanih margin i padding vrednosti */
+body, h1, h2, h4, p, ul, ol, li, table, td, th, input, button, label, select {
+    margin: 0;
+    padding: 0;
+}
+
+/* Globalni stilovi za telo stranice */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header stilovi */
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Kontejner za sadržaj */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Stilovi za naslove */
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Stilovi za paragrafe */
+p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Stilovi za linkove */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Stilovi za slike */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+    margin-left: 20px; 
+    margin-top: 50px; 
+    
+}
+
+/* Stilovi za boldovanje teksta */
+b {
+    font-weight: bold;
+}
+
+/* Stilovi za span element */
+span {
+    font-style: italic;
+    color: #888;
+}
+
+/* Stilovi za listu */
+.list {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Stilovi za tabele */
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f2f2f2;
+}
+
+/* Stilovi za forme */
+input[type="text"],
+input[type="radio"],
+button,
+select {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="text"] {
+    width: 100%;
+}
+
+/* Stilovi za dugme */
+button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Stilovi za opcije */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Stilovi za selekt */
+select {
+    width: 100%;
+}
+
+/* Dodatni stilovi prema potrebi */
